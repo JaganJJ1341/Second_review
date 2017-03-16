@@ -1,0 +1,136 @@
+@CHARSET "ISO-8859-1";
+
+#intro-text {
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 300;
+    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 35%;
+    margin: 90px 0 0;
+    letter-spacing: 1px;
+}
+
+#header-nav {
+    padding-top: 5%;
+    width: 620px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 12px;
+}
+
+#header-nav a {
+    color: #000000;
+    margin-right: 17px;
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;   
+}
+
+#header-nav .area-left {
+    float: left;
+}
+
+#header-nav .area-right {
+    float: right;
+}
+
+input[type="submit"]
+{
+	border: none;
+	display: inline-block;
+	outline: 0;
+	padding: 10px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none !important;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+input[type=text]
+{
+	width: 150px;
+	height: 5px;
+  padding: 15px;
+   border: solid 1px #000000;  /* #dcdcdc */
+   transition: box-shadow 0.3s, border 0.3s;
+}
+
+input[type=text]:focus,
+input[type=text].focus
+{
+	
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+} 
+
+#intro-content {
+    width: 930px;
+    margin: 60px auto 0;
+    text-align: center;
+
+    color: #000000
+}
+
+#home-logo {
+    text-indent: -9999em;
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-left: 10%;
+    padding: 0
+}
+
+#intro-text {
+    font-size: 48px;
+    line-height: 43px;
+    font-weight: 300;
+    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 50px 0 0;
+    letter-spacing: 1px;
+}
+
+#sub-text {
+    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: 300;
+    padding: 0;
+    margin: 15px 0 0;
+    letter-spacing: -0.5px;
+}
+
+#page
+{
+	padding-top: 5%;
+}
+#date
+{
+	font-size: 20px;   
+	color: #000000;
+	font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+}
+
+#footer 
+{
+	margin-top: 29%;
+	padding-left: 39%;
+}
+
+#above
+{
+	padding-top: 5%;
+}
+
+#copyrights
+{
+	padding-left: 8%;
+
+}
+

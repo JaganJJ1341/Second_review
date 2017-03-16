@@ -1,0 +1,124 @@
+@CHARSET "ISO-8859-1";
+
+#header-nav {
+    padding-top: 25px;
+    width: 930px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 12px;
+}
+#header-nav .button-grey {
+    display: inline-block;
+    background-color: #737373;
+    margin-right: 0 !important;
+    padding: 0 20px
+}
+
+#header-nav a {
+    color: #000000;
+    margin-right: 17px;
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;   
+}
+
+#header-nav .area-left {
+    float: left
+}
+
+#header-nav .area-right {
+    float: right
+}
+
+#header-nav .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    margin-top: 10px
+}
+
+body
+{
+	 width: 100%;
+    height: 100%;
+    background-image: url(bgfile2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  #bg-extend {
+    width: 100%;
+    height: 100%;
+    background-image: url(bgfile2.jpg);
+    background-repeat: no-repeat
+} */
+
+/*#bg {
+    width: 100%;
+    height: 799px;
+    margin: 0 auto;
+    background-image: url(/media/img/home/justpark/car-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center
+}
+ */
+/* #bg-extend {
+	
+	background: linear-gradient(to bottom, #A7BFE8 , #6190E8);
+    width: 100%;
+    height: 799px;
+   
+} */
+#bg {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 48px;
+}
+
+#logo {
+    /* text-indent: -9999em; */
+    width: 170px;
+    height: 50%;
+    margin-right: 50px;
+    margin-left: 20%;
+    margin-top: 60px;
+    padding-top: 0
+}
+
+
+#intro-content {
+    width: 930px;
+    margin: 60px auto 0;
+    text-align: center;
+
+    color: #000000
+}
+#home-logo {
+    text-indent: -9999em;
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-left: 10%;
+    padding: 0
+}
+#intro-text {
+    font-size: 48px;
+    line-height: 43px;
+    font-weight: 300;
+    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 50px 0 0;
+    letter-spacing: 1px;
+}
+#sub-text {
+    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: 300;
+    padding: 0;
+    margin: 15px 0 0;
+    letter-spacing: -0.5px;
+}
+
+

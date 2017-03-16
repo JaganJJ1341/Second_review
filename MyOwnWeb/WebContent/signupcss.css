@@ -1,0 +1,127 @@
+@CHARSET "ISO-8859-1";
+
+body
+{
+    background-image: url(loginimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#bg {
+    width: 100%;
+    height: 100%;
+    font-size: 48px;
+}
+
+#header-nav {
+    padding-top: 25px;
+    width: 930px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 12px;
+}
+#header-nav .button-grey {
+    display: inline-block;
+    background-color: #737373;
+    margin-right: 0 !important;
+    padding: 0 20px
+}
+
+#header-nav a {
+    color: #ffffff;
+    margin-right: 17px;
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;   
+}
+
+#header-nav .area-left {
+    float: left
+}
+
+#header-nav .area-right {
+    float: right
+}
+
+#header-nav .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    margin-top: 10px
+}
+
+.email-signup input[type="submit"]
+{
+	border: none;
+	display: inline-block;
+	outline: 0;
+	padding: 10px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none !important;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.fs
+{
+	width: 40%;
+	border-radius: 20px;
+}
+
+#hello
+{
+	border:1px solid #ffffff;
+  	color:#ffffff;
+  	font-size:25px;
+  	text-align: center;
+  	border-radius: 10px;
+}
+
+.email-signup .intro a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+.email-signup
+{
+	margin-top: 10%;
+	color: #fff;
+	font-weight: 300;
+	font-size: 25px;
+}
+
+.email-signup input[type=text]
+{
+	
+	padding: 50px;
+   border: solid 1px #dcdcdc;
+   transition: box-shadow 0.3s, border 0.3s;
+}
+  
+.email-signup input[type=email]
+{
+	
+  padding: 50px;
+   border: solid 1px #dcdcdc;
+   transition: box-shadow 0.3s, border 0.3s;
+}
+  
+input[type=text]:focus,
+input[type=text].focus
+{
+	
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+} 
+
+
+input[type=email].focus
+{
+	
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
