@@ -1,0 +1,5 @@
+set  DERBY_HOME=C:\Data\jdk1.7.0_55\db
+set  JAVA_HOME=C:\Data\jdk1.7.0_55\bin
+set  PATH=C:\Data\jdk1.7.0_55\db\bin;C:\Data\jdk1.7.0_55\bin;%PATH%
+set  DERBY_HOME=C:\Data\jdk1.7.0_55\db
+startNetworkServer -h  172.24.18.84
